@@ -1,4 +1,4 @@
-# https://github.com/kittrellbj/jekyll-now More instructions.
+https://github.com/kittrellbj/jekyll-now More instructions.
 
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
