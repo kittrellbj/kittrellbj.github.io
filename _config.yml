@@ -29,9 +29,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : briansweblog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -60,8 +60,8 @@ staticman:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : 6LfyeKUUAAAAAC8jOfRgta0QEgZ_KhJ79Zmr2z92
+  secret                 : 6LfyeKUUAAAAAAbEcy7jKw4hv1-jFGuDZ8n_GWn1
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Brian Kittrell"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : https://avatars2.githubusercontent.com/u/5172361?s=96&v=4 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A collection of blogs on one site. DiversionWorks (games), ProofMicro (proofreading), Late Nite Books (publishing), Late Nite Host (webhosting and design), and more. <br /> <br />It's much easier for me to maintain one blog for everything and branch it out, so here we are."
   location         : "USA"
   email            : kittrellbj@gmail.com
